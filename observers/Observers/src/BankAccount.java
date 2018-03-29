@@ -21,6 +21,5 @@ public class BankAccount extends Observable
 		this.balance = balance;
 		setChanged();//set the flag to indicate that this observable has changed
 	    notifyObservers();//notify everyone
-
 	}
 }
